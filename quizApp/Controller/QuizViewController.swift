@@ -22,7 +22,7 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var button4: UIButton!
     
     var timer = Timer()
-    var secondsRemaining = 60
+    var secondsRemaining = 5
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -57,13 +57,15 @@ class QuizViewController: UIViewController {
         button3.setTitle(question.answers[questionNumbers[2]], for: .normal)
         button4.setTitle(question.answers[questionNumbers[3]], for: .normal)
         scoreLabel.text = "\(currentCorrect)/\(currentQuestion)"
-        
     }
     
     
     @objc func updateTimeLabel() {
         secondsRemaining -= 1
         timeLabel.text = String(secondsRemaining)
+        if secondsRemaining == 0 {
+            self.performSegue(withIdentifier: "finishedQuizSegue", sender: nil)
+        }
     }
     /*
     // MARK: - Navigation

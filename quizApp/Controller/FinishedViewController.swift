@@ -35,4 +35,14 @@ class FinishedViewController: UIViewController {
     }
     */
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "restartQuizSegue" {
+            if let destinationVC = segue.destination as? QuizViewController {
+                destinationVC.quiz = QuizBuilder().createQuiz()
+            }
+        }
+        
+    }
+    
 }

@@ -19,6 +19,7 @@
 		3C01CB862596E0DB0078C812 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C01CB852596E0DB0078C812 /* Question.swift */; };
 		3C5B51B72598144F000D897F /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5B51B62598144F000D897F /* QuizViewController.swift */; };
 		3C5B51CC259824BD000D897F /* FinishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5B51CB259824BD000D897F /* FinishedViewController.swift */; };
+		3C5B51D425983B47000D897F /* QuizBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5B51D325983B47000D897F /* QuizBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		3C01CB852596E0DB0078C812 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		3C5B51B62598144F000D897F /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		3C5B51CB259824BD000D897F /* FinishedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedViewController.swift; sourceTree = "<group>"; };
+		3C5B51D325983B47000D897F /* QuizBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				3C5B51CB259824BD000D897F /* FinishedViewController.swift */,
 				3C01CB4D2596C6BD0078C812 /* ViewController.swift */,
 				3C5B51B62598144F000D897F /* QuizViewController.swift */,
+				3C5B51D325983B47000D897F /* QuizBuilder.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				3C5B51B72598144F000D897F /* QuizViewController.swift in Sources */,
 				3C01CB862596E0DB0078C812 /* Question.swift in Sources */,
 				3C01CB4E2596C6BD0078C812 /* ViewController.swift in Sources */,
+				3C5B51D425983B47000D897F /* QuizBuilder.swift in Sources */,
 				3C01CB4A2596C6BD0078C812 /* AppDelegate.swift in Sources */,
 				3C01CB7E2596E0CA0078C812 /* Quiz.swift in Sources */,
 				3C01CB4C2596C6BD0078C812 /* SceneDelegate.swift in Sources */,
